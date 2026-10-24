@@ -58,17 +58,17 @@ Your results have been saved to sample_data.csv.
 
 ## 7. Output Dataset
 
-The generated CSV file contains the following fields:
+The program creates or updates sample_data.csv with the following columns:
 
-| `#` | Record number |
-| `Weight (kg)` | Weight entered by the user |
-| `Height (m)` | Height entered by the user |
-| `BMI` | Calculated BMI, rounded to two decimal places |
-| `Conclusion` | Corresponding BMI classification |
+#  Weight (kg)  Height (m)  BMI   Conclusion
 
-Each successful execution adds a new record to the CSV file, enabling multiple calculations to be stored in a single dataset.
+1    60          1.65      22.04   Normal
 
-## 8. Conclusion
+Each successful calculation is added as a new row, allowing multiple results to be recorded in the same file.
+
+The CSV file is created automatically when the program runs. If it already exists, new results are appended to it.
+
+## Conclusion 
 
 This project demonstrates the practical application of Python for interactive calculations and structured data storage. It also provides experience with CSV file handling, input validation, version control and publishing source code through GitHub.
 
