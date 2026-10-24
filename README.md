@@ -60,9 +60,9 @@ Your results have been saved to sample_data.csv.
 
 The program creates or updates sample_data.csv with the following columns:
 
-#  Weight (kg)  Height (m)  BMI   Conclusion
+Weight (kg)  Height (m)  BMI   Conclusion
 
-1    60          1.65      22.04   Normal
+60           1.65        22.04   Normal
 
 Each successful calculation is added as a new row, allowing multiple results to be recorded in the same file.
 
